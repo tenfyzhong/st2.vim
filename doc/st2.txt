@@ -1,3 +1,13 @@
+*st2.vim* *st2.txt* *st2* author: tenfyzhong email: tenfy@tenfy.cn
+
+================================================================================
+Contents:
+0. Introduction -------------------------------- |st2-introduction|
+1. Install ------------------------------------- |st2-install|
+2. Usage --------------------------------------- |st2-usage|
+3. Command ------------------------------------- |st2-command|
+4. LICENSE ------------------------------------- |st2-license|
+
 ================================================================================
 0. Introduction                                  *st2-introduction*
 vim plugin for https://github.com/tenfyzhong/st2
@@ -30,3 +40,6 @@ line.
 ================================================================================
 4. LICENSE                                       *st2-license*
 MIT License  Copyright (c) 2022 tenfy
+
+" vim:ft=help:iskeyword+=-:iskeyword+=58:iskeyword+=#
+
