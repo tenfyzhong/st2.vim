@@ -13,7 +13,7 @@ function! s:flags()
 endfunction
 
 function! s:src()
-  return sort(['json', 'proto', 'thrift'])
+  return sort(['json', 'proto', 'thrift', 'go'])
 endfunction
 
 function! s:dst()
