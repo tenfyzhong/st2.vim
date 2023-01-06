@@ -1,9 +1,9 @@
 function! s:short_flags()
-  return sort(['-d', '-i', '-s', '-t'])
+  return sort(['-d', '-i', '-r', '-s'])
 endfunction
 
 function! s:long_flags()
-  return sort(['--dst', '--input', '--src', '--tag'])
+  return sort(['--dst', '--input', '--root', '--src'])
 endfunction
 
 function! s:flags()
@@ -13,7 +13,7 @@ function! s:flags()
 endfunction
 
 function! s:src()
-  return sort(['json', 'proto', 'thrift', 'go'])
+  return sort(['json', 'proto', 'thrift', 'go', 'csv'])
 endfunction
 
 function! s:dst()
@@ -55,7 +55,7 @@ function! st2#complete#complete(A, L, P)
       let completed = <SID>dst()
     elseif last == '--input' || last == '-i'
       let completed = <SID>file(a:A)
-    elseif last == '--tag' || last == '-t'
+    elseif last == '--root' || last == '-r'
       let completed = []
     endif
   return join(completed, "\n")
