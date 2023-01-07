@@ -3,7 +3,7 @@ function! s:short_flags()
 endfunction
 
 function! s:long_flags()
-  return sort(['--dst', '--input', '--root', '--src'])
+  return sort(['--dst', '--input', '--root', '--src', '--rc', '--wc'])
 endfunction
 
 function! s:flags()
@@ -58,5 +58,6 @@ function! st2#complete#complete(A, L, P)
     elseif last == '--root' || last == '-r'
       let completed = []
     endif
+  endif
   return join(completed, "\n")
 endfunction
