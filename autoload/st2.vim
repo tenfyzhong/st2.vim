@@ -13,8 +13,6 @@ function! st2#gen(args)
   endif
 
   let str = system(cmd)
-  let save = @a
-  let @a = str
-  normal "ap
-  let @a = save
+  let lines = split(str, "\n")
+  call append(line('.'), lines)
 endfunction
