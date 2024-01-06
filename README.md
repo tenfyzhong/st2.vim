@@ -8,11 +8,15 @@ a. Install `st2` first
 b. Install vim plugin  
 Suggest use a plugin manager, such vim-plug or other.  
 - [vim-plug](https://github.com/junegunn/vim-plug) >
+```vim
   Plug 'tenfyzhong/st2.vim' 
+```
 - Manual >
+```bash
   git clone https://github.com/tenfyzhong/st2.vim.git ~/.vim/bundle/st2.vim
   echo 'set rtp+=~/.vim/bundle/st2.vim' >> ~/.vimrc
   vim -c 'helptag ~/.vim/bundle/st2.vim/doc' -c qa!
+```
 
 
 # 2. Usage                                         *st2-usage*
