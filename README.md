@@ -1,9 +1,11 @@
-# 0. Introduction                                  *st2-introduction*
+# 0. Introduction
 vim plugin for https://github.com/tenfyzhong/st2
 
-# 1. Install                                       *st2-install*
+# 1. Install
 a. Install `st2` first  
-`go install github.com/tenfyzhong/st2/cmd/st2@latest`  
+```
+brew install tenfyzhong/tap/st2
+```
  
 b. Install vim plugin  
 Suggest use a plugin manager, such vim-plug or other.  
