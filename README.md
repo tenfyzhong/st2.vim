@@ -19,13 +19,13 @@ Suggest use a plugin manager, such vim-plug or other.
 ```
 
 
-# 2. Usage                                         *st2-usage*
+# 2. Usage
 |St2| has the same flag with shell command `st2`. 
 
-# 3. Command                                       *st2-command*
+# 3. Command
 *St2* call the shell command `st2` and append the output data to the current
 line.
 
 
-# 4. LICENSE                                       *st2-license*
+# 4. LICENSE
 MIT License  Copyright (c) 2022 tenfy

@@ -6,7 +6,7 @@ endfunction
 
 function! st2#gen(args)
   if !executable('st2')
-    echom 'Please install `st2` first: go install github.com/tenfyzhong/st2/cmd/st2@latest'
+    echom 'Please install `st2` first: brew install tenfyzhong/tap/st2'
     return
   endif
 
